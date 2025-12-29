@@ -1,0 +1,999 @@
+/* 메인 색깔 #4188f1 */
+/* 테두리 색깔 #e1e8ed */
+
+/* 태그 수정 */
+* {
+    outline: none;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-size: 0.95rem;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Pretendard", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, b {
+    font-family: "Pretendard", sans-serif;
+}
+
+input[type=password] {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2.0rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.3rem;
+}
+
+h6 {
+    font-size: 1.1rem;
+}
+
+ol {
+    list-style-image: none;
+}
+
+pre {
+    background-color: #f5f8fa;
+    border: 1px solid #e1e8ed;
+    border-radius: 0.35rem;
+    padding: 0.8rem;
+    overflow-x: scroll;
+}
+
+a:focus {
+    outline: 0;
+}
+
+img {
+    max-width: 100%;
+    margin: 0;
+}
+
+th[rowspan], td[rowspan] {
+    position: relative;
+}
+
+th[rowspan]:after, td[rowspan]:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -1px;
+    width: 1px;
+    height: 100%;
+    /*background: #e0e0e0;*/
+}
+
+input[type=search] {
+    -webkit-appearance: none; /* iOS 잡다한 css설정 제거 */
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #e1e8ed;
+    padding: 0.5rem;
+}
+
+hr {
+    border-top: 1px solid #e1e8ed;
+}
+
+label {
+    word-break: keep-all;
+}
+
+del, s, strike {
+    color: gray;
+}
+/* 태그 수정 End */
+
+/* 백그라운드 색 지정 */
+.clue, body {
+    background-color: #f5f5f5;
+}
+/* 백그라운드 색 지정 End*/
+
+/* 컨텐츠 넓이 수정 및 가운대 정렬 */
+.Clue .nav-wrapper .navbar, .Clue .content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* 컨텐츠 넓이 수정 및 가운대 정렬 End */
+
+/* 네비 수정 */
+.Clue .nav-wrapper {
+    min-height: 2.8rem;
+    background-color: var(--clue-brand-color, #4188f1);
+    position: absolute;
+    z-index: 100;
+    box-shadow: none;
+    font-weight: bold;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.Clue .nav-wrapper.navbar-fixed-top {
+    position: fixed;
+}
+
+.Clue .nav-wrapper .navbar {
+    padding: 0 0.2rem;
+    border: 0;
+    border-radius: 0;
+}
+
+.Clue .nav-wrapper .navbar .navbar-brand {
+    height: 2.8rem;
+    width: var(--clue-navbar-logo-width, 7rem);
+    background-image: var(--clue-navbar-logo-image, none);
+    background-repeat: no-repeat no-repeat;
+    background-size: auto var(--clue-navbar-logo-size, 1.9rem);
+    background-position: left center;
+    margin-left: var(--clue-naver-logo-margin-left, 10px) !important;
+    margin-top: var(--clue-naver-logo-margin-top, 0) !important;
+    margin: var(--clue-navbar-logo-margin, 0);
+    /* display: grid;
+    place-content: center; */
+    padding-top: var(--clue-navbar-logo-text-padding, 5px);
+}
+
+.Clue .nav-wrapper .navbar .navbar-nav .nav-item {
+    margin: 0;
+}
+
+.Clue .nav-wrapper .navbar .navbar-nav .nav-item .fa {
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+
+.Clue .nav-wrapper .navbar .navbar-nav .nav-item .ion {
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+
+.Clue .nav-wrapper .navbar .navbar-nav .nav-item .dropdown-menu .fa {
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+
+.Clue .nav-wrapper .navbar .navbar-nav .nav-item .dropdown-menu .ion {
+    margin-right: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.Clue .nav-wrapper .navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.7rem 0.8rem;
+    line-height: 1.4rem;
+}
+
+.Clue .nav-wrapper .navbar .navbar-nav .nav-item .nav-link:hover {
+	background-color: var(--clue-brand-dark-color, #214479);
+}
+
+.Clue .nav-wrapper .navbar .navbar-nav .nav-item .nav-link:hover,
+.Clue .nav-wrapper .navbar .navbar-nav .nav-item .nav-link:focus {
+    transition: 0.3s;
+}
+
+.Clue .nav-wrapper .navbar .navbar-nav .nav-item .dropdown-menu {
+    border-radius: 12px !important;
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.Clue .nav-wrapper .navbar .navbar-nav .nav-item .dropdown-toggle::after {
+    margin-right: 0;
+    margin-left: 0.35rem;
+}
+
+.Clue .nav-wrapper .navbar .form-inline {
+    padding: 0.4rem 0;
+    float: right;
+}
+
+.Clue .nav-wrapper .navbar .form-inline .form-control {
+    font-size: 0.8rem;
+    height: 2rem;
+    width: 10.8rem;
+    border-color: transparent;
+    border-radius: 0;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    float: none;
+}
+
+.Clue .nav-wrapper .navbar .form-inline .form-control:focus {
+    border-right-color: #e1e8ed;
+}
+
+.Clue .nav-wrapper .navbar .form-inline .input-search {
+    display: table-cell;
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 4;
+}
+
+.Clue .nav-wrapper .navbar .form-inline .btn {
+    height: 2rem;
+    width: 2rem;
+    color: #4f5b63;
+    padding: 0.2rem 0.4rem;
+}
+
+/* .Clue .nav-wrapper .navbar .form-inline .btn:hover, .Clue .nav-wrapper .navbar .form-inline .btn:focus {
+    background-color: var(--clue-brand-color, #4188f1);
+    color: #fff;
+    outline: 0;
+    transition: .3s;
+} */
+
+.Clue .nav-wrapper .navbar .form-inline .btn .fa {
+    color: var(--clue-brand-color, #4188f1);
+    width: 0.9rem;
+}
+
+.Clue .nav-wrapper .navbar .form-inline .btn .ion {
+    color: var(--clue-brand-color, #4188f1);
+    width: 0.9rem;
+}
+
+.Clue .nav-wrapper .navbar .navbar-login {
+    float: right;
+    padding-left: 0.8rem;
+}
+
+.Clue .nav-wrapper .navbar .navbar-login .fa {
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+.Clue .nav-wrapper .navbar .navbar-login .ion {
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+.Clue .nav-wrapper .navbar .navbar-login .login-icon {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+    padding: .7rem 0
+}
+
+#login-menu>.fa {
+    margin-left: 10px;
+    font-size: 1.3rem;
+    line-height: 0.6rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+#login-menu>.ion {
+    line-height: 0.6rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.Clue .nav-wrapper .navbar .navbar-login .login-menu {
+    float: left;
+    cursor: pointer;
+    padding: 0.4rem 0;
+}
+
+.Clue .nav-wrapper .navbar .navbar-login .login-menu a:after {
+    display: none;
+}
+
+.Clue .nav-wrapper .navbar .navbar-login .profile-img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.35rem;
+    margin: 0;
+    border: 1px solid #e1e8ed;
+}
+
+.Clue .nav-wrapper .navbar .navbar-login .logout-btn {
+    margin-left: 0.8rem;
+    display: inline-block;
+}
+
+.Clue .nav-wrapper .navbar .navbar-login .login-dropdown-menu {
+    top: 120%;
+    right: -0.5rem;
+    z-index: 1002;
+    border-radius: 12px;
+}
+
+.Clue .nav-wrapper .navbar .navbar-login .login-dropdown-menu:before, .Clue .nav-wrapper .navbar .navbar-login .login-dropdown-menu:after {
+    bottom: 100%;
+    border: solid transparent;
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: auto;
+}
+
+.Clue .nav-wrapper .navbar .navbar-login .login-dropdown-menu:before {
+    border-bottom-color: #e1e8ed;
+    border-width: 0.8rem;
+    left: auto;
+    right: 0.6rem;
+}
+
+.Clue .nav-wrapper .navbar .navbar-login .login-dropdown-menu:after {
+    border-bottom-color: #fff;
+    border-width: 0.78rem;
+    left: auto;
+    right: 0.6rem;
+}
+
+.Clue .nav-wrapper .navbar .navbar-login .login-dropdown-menu .username {
+    cursor: default;
+    text-align: right;
+    font-size: 1rem;
+    white-space: unset;
+    word-break: break-all;
+    padding: 3px 15px
+}
+
+.Clue .nav-wrapper .navbar .navbar-login .login-dropdown-menu .username:hover {
+    background-color: transparent;
+    color: #373a3c;
+}
+/* 네비 수정 End */
+
+/* 오른쪽 메뉴 수정 */
+.Clue .content-wrapper .clue-sidebar {
+    float: right;
+    width: 18rem;
+    position: relative;
+    word-break: break-all;
+}
+
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed {
+    position: absolute;
+    z-index: 1;
+}
+
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed.fixed {
+    position: fixed;
+}
+
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent {
+    width: 18rem;
+}
+
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-header .nav {
+    border: 0;
+}
+
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-header .nav .nav-item {
+    width: 18rem;
+    border: 1px solid #e1e8ed;
+    border-bottom: 0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: #f5f8fa;
+}
+
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link {
+    border: 0;
+    border-radius: 0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    text-align: center;
+    /* padding-top: 0.6rem;
+    padding-bottom: 0.6rem; */
+    color: #6e7478;
+    position: relative;
+}
+
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link.active,
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:hover,
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:focus,
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:active {
+    color: #373a3c;
+    background-color: #fff;
+}
+
+/* .Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link.active::before,
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:hover::before,
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:focus::before,
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:active::before {
+    position: absolute;
+    left: -1px;
+    bottom: -1px;
+    content: " ";
+    width: 18rem;
+    display: block;
+    border-bottom: 2px solid var(--clue-brand-color, #4188f1);
+} */
+
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-content {
+    background-color: #fff;
+    border: 1px solid #e1e8ed;
+    border-top: 0;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-content .live-recent-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-content .live-recent-list li {
+    /* border-bottom: 1px solid #e1e8ed; */
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-content .live-recent-list li:last-child {
+    margin-bottom: 10px;
+    border-bottom: none;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-content .live-recent-list .recent-item {
+    font-size: 0.80rem;
+    color: #373a3c;
+}
+
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-content .live-recent-list .recent-item .new {
+    font-size: 0.80rem;
+    color: #b73333;
+}
+
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-content .live-recent-list .recent-item.removed {
+    text-decoration: none !important;
+    color: #777;
+}
+
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-footer {
+    background-color: #f5f8fa;
+    border: 1px solid #e1e8ed;
+    border-top: 0;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    text-align: right;
+    padding: 0.4rem 0.6rem;
+}
+
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-footer .label {
+    background-color: var(--clue-brand-color, #4188f1);
+    padding: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-footer .label:hover {
+	background-color: var(--clue-brand-dark-color, #214479);
+}
+
+.Clue .content-wrapper .clue-sidebar .right-ads {
+    position: absolute;
+    top: 25.73rem;
+    width: 15rem;
+}
+/* 오른쪽 메뉴 수정 End */
+
+/* 컨텐츠 수정 */
+.Clue .content-wrapper {
+    margin-top: 3.33rem;
+}
+
+.Clue .content-wrapper .clue-content {
+    margin-right: 19rem;
+    padding: 0;
+    padding-bottom: 1rem;
+    word-break: break-all;
+}
+
+.Clue .content-wrapper.hide-sidebar .clue-sidebar {
+    display: none;
+}
+
+.Clue .content-wrapper.hide-sidebar .clue-content {
+    margin-right: 0 !important;
+}
+
+.Clue .content-wrapper .clue-content .notification .label {
+    background-color: var(--clue-brand-notice-color, #d9edf7);
+    color: #2f4f4f;
+    padding: 10px;
+    line-height: 1rem;
+    margin: 0 0 0.6rem 0;
+    font-size: 1rem;
+    font-weight: normal;
+    width: 100%;
+    text-align: left;
+    white-space: normal;
+    border-radius: 12px;
+}
+
+.Clue .content-wrapper .clue-content .clue-content-header {
+    border: 1px solid #e1e8ed;
+    border-bottom: 0px !important;
+    border-radius: 12px 12px 0 0;
+    /* background-color: #f5f8fa; */
+    background-color: var(--clue-main-header-background-color, #f5f8fa);
+}
+
+.Clue .content-wrapper .clue-content .clue-content-header .clue-notice {
+    margin: 1rem;
+}
+
+.Clue .content-wrapper .clue-content .clue-content-header .clue-notice ul {
+    list-style-image: none;
+    list-style-type: none;
+    text-align: center;
+    line-height: 1.8rem;
+}
+
+.Clue .content-wrapper .clue-content .clue-content-header .title {
+    padding: 1rem;
+    min-height: 65px;
+}
+
+.Clue .content-wrapper .clue-content .clue-content-header .contentSub {
+    margin-top: -0.5rem;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.Clue .content-wrapper .clue-content .clue-content-header .title>h1 {
+    color: #000;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.Clue .content-wrapper .clue-content .clue-content-header .title>h1>small {
+    margin-left: 0.4rem;
+}
+
+.Clue .content-wrapper .clue-content .clue-content-header .title>h1>a {
+    color: #000;
+}
+
+.Clue .content-wrapper .clue-content .clue-content-header .title .namespace {
+    box-shadow: inset 0 -0.3em 0 var(--clue-brand-bright-color);
+    color: #545454;
+}
+
+.Clue .content-wrapper .clue-content .clue-content-header .header-ads {
+    margin: 1rem;
+    margin-bottom: 0;
+}
+
+.Clue .content-wrapper .clue-content .clue-content-main {
+    border-left: 1px solid #e1e8ed;
+    border-right: 1px solid #e1e8ed;
+    background-color: #fff;
+    padding: 1rem;
+    overflow: visible;
+}
+
+.Clue .content-wrapper .footer-recent {
+    margin: 0.3rem 0 3rem 0;
+    border: 1px solid #e1e8ed;
+}
+
+.Clue .content-wrapper .footer-recent .live-recent-footer {
+    background-color: #f5f8fa;
+    border: 1px solid #e1e8ed;
+    border-bottom-left-radius: .35rem;
+    border-bottom-right-radius: .35rem;
+    border-top: 0;
+    padding: .4rem .6rem;
+    text-align: right;
+}
+
+.Clue .content-wrapper .footer-recent .live-recent-footer .label {
+    background-color: var(--clue-brand-color, #4188f1);
+    font-size: .8rem;
+    font-weight: 400;
+    padding: .4rem;
+}
+
+.Clue .content-wrapper .clue-content .clue-content-main .social-buttons {
+    float: right;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.Clue .content-wrapper .clue-content .clue-content-main .social-buttons>div {
+    float: right;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.45rem;
+    margin-left: 0.25rem;
+    border-radius: 0.35rem;
+    text-align: center;
+    cursor: pointer;
+    background: #ccc;
+    color: #fff;
+    position: relative;
+    font-size: 1.8rem;
+}
+
+.Clue .content-wrapper .clue-content .clue-content-main .social-buttons>.facebook {
+    background-color: #5d82d1;
+}
+
+.Clue .content-wrapper .clue-content .clue-content-main .social-buttons>.twitter {
+    background-color: #40bff5;
+}
+
+.Clue .content-wrapper .clue-content .clue-content-main .social-buttons>.google {
+    background-color: #eb5e4c;
+    display: none;
+}
+/* 컨텐츠 수정 End */
+
+/* 컨텐츠 하단 수정 */
+.Clue .content-wrapper .clue-footer {
+    border: 1px solid #e1e8ed;
+    border-radius: 0 0 12px 12px;
+    background-color: #f5f8fa;
+    padding: 1rem;
+    clear: both;
+}
+
+.Clue .content-wrapper .clue-footer ul {
+    list-style-type: none;
+    list-style-image: none;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* 컨텐츠 하단 수정 End */
+
+/* 부트스트랩 커스텀 */
+.dropdown-menu {
+    font-size: 0.95rem;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    border-color: #e1e8ed;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: var(--clue-brand-color, #4188f1);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.dropdown-divider {
+    border-color: #e1e8ed;
+}
+
+.form-control {
+    font-size: 0.9rem;
+}
+
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    transition: 0.3s;
+}
+
+.btn {
+    box-shadow: none;
+    border-radius: 12px;
+}
+
+.btn:active, .btn:focus {
+    outline: 0;
+}
+
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+    z-index: 3; /* 파폭, IE 테두리관련 버그 */
+}
+
+.close:focus, .close:hover {
+    transition: 0.3s;
+}
+
+caption {
+    color: #373a3c;
+    caption-side: top;
+}
+
+.float-right {
+    float: right;
+}
+/* 부트스트랩 커스텀 End*/
+
+div.scroll-buttons {
+    position: fixed;
+    float: right;
+    height: 42px;
+    text-align: right;
+    font-size: 1.7em;
+    z-index: 10000;
+    margin-bottom: -10px;
+    bottom: 10px;
+    right: 0px;
+    opacity: 0.8;
+}
+
+/* a.scroll-toc {
+    margin-right: 10px;
+} */
+
+div.scroll-buttons a {
+    float: left;
+    width: 42px;
+    height: 42px;
+    padding: 5px 8px 9px 8px;
+    border: 1px solid #545454;
+    border-left: 0;
+    text-decoration: none;
+    text-align: center;
+    background: rgba(26,26,26,0.9);
+    border-bottom: 0;
+}
+
+.scroll-buttons a:link, .scroll-buttons a:visited {
+    color: white;
+}
+
+.no-admin-convenience .admin {
+    display: none;
+}
+
+.dr-admin {
+    margin-left: 5px;
+    padding: 4px 20px 5px 0px;
+}
+
+.random-btn {
+    border-width: 2px;
+    border-color: transparent;
+    border-radius: 12px;
+    margin-right: 5px; 
+}
+
+.random-btn-txt {
+    height: 13.5px;
+    color: var(--clue-brand-color, #4188f1) !important;
+}
+
+.btn-discuss-progress {
+    background-color: #e0ffe0 !important;
+}
+
+.starred_1 {
+    background-color:var(--clue-brand-color);
+    color: #fff;
+}
+
+.thetree-light-mode .btn-group .fa {
+	color: var(--clue-brand-color, #4188f1);
+}
+
+.thetree-light-mode .btn-group .ion {
+	color: var(--clue-brand-color, #4188f1);
+}
+
+.notice-icon {
+    margin-right: 10px;
+    font-size: 25px;
+    color: var(--clue-brand-color, #4188f1);
+}
+
+#clue-recent-tab1 {
+    padding: .25em .1em .25em 1em;
+}
+
+.recent-item-date {
+    text-align: right;
+    font-size: .8rem;
+    float: right;
+    color: #999;
+    line-height: 2;
+}
+
+.recent-item-text {
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    width: 190px;
+}
+
+.Clue .content-wrapper .clue-sidebar .clue-right-fixed .live-recent .live-recent-content .live-recent-list li:hover {
+    background: #eee;
+}
+
+.removed-recent {
+    text-decoration: line-through;
+}
+
+.btn-recentchanges {
+    border: var(--clue-brand-color);
+    background: var(--clue-brand-color);
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: right;
+}
+
+.recent-head-title {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f5f8fa;
+    border-bottom: 1px solid #e1e8ed;
+    padding: 8px 12px;
+}
+
+.recent-head-text {
+    margin-left: 5px;
+    font-size: 19px;
+}
+
+.header-date-text {
+    padding-top: 5px;
+    color: #777;
+}
+
+.Clue .nav-wrapper .navbar .form-inline .btn {
+    border-color: transparent;
+}
+
+.dropdown-item {
+    padding: 5px 20px;
+}
+
+.dr-admin .fa {
+    vertical-align: text-bottom;
+    padding: 0;
+}
+
+.dr-admin .ion {
+    vertical-align: text-bottom;
+}
+
+.Clue .content-wrapper .clue-content .clue-content-main {
+    padding-bottom: 30px !important;
+}
+
+a {
+	color: var(--clue-main-content-link-color, #0275d8);
+}
+
+.user-text-name {
+	color: var(--clue-main-content-username-color, #0275d8);
+}
+
+.wiki-content .wiki-table {
+    background-color: var(--article-background-color);
+}
+
+.content-tools {
+    padding-right: 1rem;
+    padding-top: 1rem;
+    float: right
+}
+
+label {
+    display: inline;
+}
+
+.nav-block {
+    margin-left: 0;
+    margin-right: 0;
+    position: relative
+}
+
+.nav-block-margin {
+    margin-bottom: 1rem;
+    margin-top: 1rem
+}
+
+.nav-block-child {
+    overflow-x: auto
+}
+
+.nav-block-line {
+    border-bottom: 1px solid #e0e0e0
+}
+
+.nav-block-content {
+    display: inline-block;
+    margin: 0;
+}
+
+.nav-block-content-ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative
+}
+
+.nav-block-content-ul:not(.nav-no-border)>* {
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0
+}
+
+.nav-block-content-ul:not(.nav-no-border)>:first-of-type {
+    border-bottom-left-radius: 8px;
+    border-left: 1px solid #e0e0e0;
+    border-top-left-radius: 8px;
+    padding: 0 0 0 .5rem
+}
+
+.nav-block-content-ul:not(.nav-no-border)>:last-of-type {
+    border-bottom-right-radius: 8px;
+    border-right: 1px solid #e0e0e0;
+    border-top-right-radius: 8px;
+    padding: 0 .5rem 0 0
+}
+
+.nav-content {
+    color: #000;
+    display: inline-block;
+    padding: .5rem .75rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none !important;
+    white-space: nowrap;
+    width: 100%
+}
+
+.nav-content:after {
+    background-color: var(--navigation-item-underline-color, transparent);
+    bottom: 0;
+    content: "";
+    height: 4px;
+    left: 1rem;
+    pointer-events: none;
+    position: absolute;
+    right: 1rem
+}
+
+.menu2-selected {
+    --navigation-item-underline-color: var(--brand-bright-color-1, #d5d5d5);
+    color: var(--brand-color-1, #bcbcbc) !important;
+    font-weight: 600
+}

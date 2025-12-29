@@ -1,0 +1,260 @@
+/* 부트스트랩 기본 폰트가 16이라 기본폰트 15인 리버티스킨은 bootstrap 반응형 부분을 쓰기가 힘듬
+   그래서 그냥 px로 때려박는걸로
+*/
+
+/* Max-width: 1023 데스크탑 마지노선 */
+@media (max-width: 1023px) {
+    .Clue .nav-wrapper .navbar {
+        padding: 0 0.5rem;
+    }
+
+    .Clue .nav-wrapper .navbar .form-inline {
+        float: left;
+        padding: 0;
+        padding-top: 0.25rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .Clue .nav-wrapper .navbar .form-inline .input-group {
+        display: table;
+        width: 100%;
+    }
+
+    .Clue .nav-wrapper .navbar .form-inline .input-group .form-control {
+        width: 100%;
+    }
+
+    .Clue .nav-wrapper .navbar .form-inline .input-group .input-group-btn {
+        width: 1%;
+    }
+
+    .Clue .content-wrapper {
+        margin-top: 5.89rem;
+    }
+
+    .Clue .content-wrapper .clue-sidebar {
+        display: none;
+    }
+
+    .Clue .content-wrapper .clue-content {
+        margin-right: auto;
+        padding-bottom: 0.5rem;
+    }
+
+    .Clue .content-wrapper .clue-content .clue-content-header {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Clue .content-wrapper .clue-content .clue-content-header .clue-notice {
+        margin: 0.5rem;
+    }
+
+    .Clue .content-wrapper .clue-content .clue-content-header .content-tools {
+        text-align: right;
+        padding: 0.5rem;
+        /* border-top: 1px solid #e1e8ed; */
+        float: unset;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .Clue .content-wrapper .clue-content .clue-content-header .content-tools .btn-group {
+        display: block;
+        position: unset;
+    }
+
+    .Clue .content-wrapper .clue-content .clue-content-header .content-tools .btn-group>.btn {
+        float: none;
+        position: unset;
+        margin: -.15rem;
+    }
+
+    .Clue .content-wrapper .clue-content .clue-content-header .title {
+        padding: 0.5rem;
+        min-height: 48px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .Clue .content-wrapper .footer-recent {
+        display: block;
+    }
+
+    .Clue .content-wrapper .clue-content .notification .label {
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .Clue .content-wrapper .clue-content .clue-content-header .contentSub {
+        margin-top: -0.25rem;
+        padding: 0.5rem;
+        padding-top: 0;
+    }
+
+    .Clue .content-wrapper .clue-content .clue-content-header .header-ads {
+        margin: 0.5rem;
+        margin-bottom: 0;
+    }
+
+    .Clue .content-wrapper .clue-content .clue-content-main {
+        padding: 0.5rem;
+    }
+
+    .Clue .content-wrapper .clue-content .clue-content-main #upload-div {
+        display: none;
+    }
+
+    .Clue .content-wrapper .clue-content .clue-content-main iframe {
+        width: 80%;
+        height: 30rem;
+    }
+
+    .Clue .content-wrapper .clue-content .clue-content-main .mobile-table-wrapper {
+        overflow-x: auto;
+    }
+
+    .Clue .content-wrapper .clue-content .clue-content-header,
+    .Clue .content-wrapper .clue-content .clue-content-main,
+    .Clue .content-wrapper .clue-footer {
+        border-left: none;
+        border-right: none;
+    }
+
+    .Clue .content-wrapper .clue-content .bottom-ads {
+        padding: 0.5rem;
+        background-color: #fff;
+        border-left: 1px solid #e1e8ed;
+        border-right: 1px solid #e1e8ed;
+    }
+
+    .Clue .content-wrapper .clue-footer {
+        padding: 0.5rem;
+    }
+
+    .Clue .content-wrapper .footer-recent {
+        border-radius: 0 !important;
+        margin: 0 !important;
+    }
+
+    .Clue .content-wrapper .clue-footer {
+        border-radius: 0 !important;
+    }
+
+    .recent-head-title {
+        border-radius: 0 !important;
+    }
+}
+
+/* Max-width: 798 메뉴 마지노선 테블릿 모드로 전환 시작하기위한 부분 */
+@media (max-width: 798px) {
+    .Clue .nav-wrapper .navbar .navbar-nav .nav-item .fa {
+        text-align: center;
+        margin: 0 0.25rem;
+    }
+
+    .Clue .nav-wrapper .navbar .navbar-nav .nav-item .nav-link .hide-title {
+        display: none;
+    }
+
+    .Clue .content-wrapper .clue-content .clue-content-main iframe {
+        width: 90%;
+        height: 20rem;
+    }
+}
+
+/* Max-width: 520px 테블릿 이하 시작 부분 */
+@media (max-width: 520px) {
+    .Clue .nav-wrapper .navbar .navbar-nav .nav-item .nav-link {
+        padding: 0.7rem 0.3rem;
+    }
+
+    .Clue .nav-wrapper .navbar .navbar-login .view-logout {
+        display: block;
+    }
+
+    .Clue .nav-wrapper .navbar .navbar-login .hide-logout {
+        display: none;
+    }
+
+    .Clue .content-wrapper .clue-content .clue-content-main table.infobox,
+    .Clue .content-wrapper .clue-content .clue-content-main table.wikitable {
+        float: none !important;
+        width: 100% !important;
+        margin: auto !important;
+    }
+
+    .Clue .content-wrapper .clue-content .clue-content-main iframe {
+        width: 100%;
+        height: 15rem;
+    }
+
+    #searchform {
+        width:100%;
+    }
+}
+
+/* Max-width: 397px 대형폰 이하 시작 부분 */
+@media (max-width: 397px) {
+    .Clue .nav-wrapper .navbar .navbar-brand {
+        margin-left: var(--clue-navbar-logo-minimum-margin-left, 0) !important;
+        margin: var(--clue-navbar-logo-minimum-margin, 0);
+        width: var(--clue-navbar-logo-minimum-width, 5rem);
+        margin-top: var(--clue-navbar-logo-minimum-margin-top, 0) !important;
+        /* 모바일에서 Libre 로고 나타내는 거 수정 */
+        /*background: transparent url(../img/logo.png?2015-12-18T21:00:00Z) no-repeat scroll left center/auto 1.5rem*/
+    }
+
+    .Clue .nav-wrapper .navbar .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+
+    .Clue .nav-wrapper .navbar .navbar-nav .nav-item .nav-link {
+        padding: 0.7rem 0.2rem;
+    }
+
+    .Clue .nav-wrapper .navbar .navbar-login {
+        padding-left: 0.4rem;
+    }
+
+    .Clue .nav-wrapper .navbar .navbar-notification {
+        padding-left: 0.4rem;
+    }
+
+    .Clue .nav-wrapper .navbar .form-inline {
+        padding-top: 0.04rem;
+    }
+
+    .Clue .content-wrapper {
+        margin-top: 0;
+    }
+
+    .Clue .nav-wrapper {
+        position: relative;
+    }
+
+    .Clue .content-wrapper .clue-content .clue-content-header {
+        border-radius: 0px;
+    }
+
+    .live-recent-content {
+        border: 0 !important;
+    }
+
+    .Clue .content-wrapper .footer-recent {
+        border: 0 !important;
+    }
+
+    .thetree-dark-mode .recent-head-title {
+        border-bottom-color: #777 !important;
+        border-top: 1px solid #777;
+    }
+
+    .recent-head-title {
+        border-top: 1px solid #e1e8ed;
+    }
+
+    .live-recent-content {
+        border-radius: 0 !important;
+    }
+}

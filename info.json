@@ -1,0 +1,86 @@
+{
+    "id": "clue",
+    "version": "1",
+    "skin_config": [
+        {
+            "key": "clue_brand_color",
+            "default": "#f85c64",
+            "css": true
+        },
+        {
+            "key": "clue_brand_dark_color",
+            "default": "#7c2e32",
+            "css": true
+        },
+        {
+            "key": "clue_navbar_logo_width",
+            "default": "7rem",
+            "css": true
+        },
+        {
+            "key": "clue_navbar_logo_image",
+            "default": "none",
+            "css": true
+        },
+        {
+            "key": "clue_navbar_logo_size",
+            "default": "1.9rem",
+            "css": true
+        },
+        {
+            "key": "clue_naver_logo_margin_left",
+            "default": "10px",
+            "css": true
+        },
+        {
+            "key": "clue_naver_logo_margin_top",
+            "default": "0",
+            "css": true
+        },
+        {
+            "key": "clue_navbar_logo_margin",
+            "default": "0",
+            "css": true
+        },
+        {
+            "key": "clue_navbar_logo_text_padding",
+            "default": "5px",
+            "css": true
+        },
+        {
+            "key": "clue_main_header_background_color",
+            "default": "#f5f8fa",
+            "css": true
+        },
+        {
+            "key": "clue_main_content_link_color",
+            "default": "#0275d8",
+            "css": true
+        },
+        {
+            "key": "clue_main_content_username_color",
+            "default": "#0275d8",
+            "css": true
+        },
+        {
+            "key": "clue_brand_notice_color",
+            "default": "#d9edf7",
+            "css": true
+        },
+        {
+            "key": "clue_brand_bright_color",
+            "default": "#fcaeb2",
+            "css": true
+        },
+        {
+            "key": "text_color",
+            "default": "#373a3c",
+            "css": true
+        },
+        {
+            "key": "article_background_color",
+            "default": "#fff",
+            "css": true
+        }
+    ]
+}
