@@ -8,15 +8,6 @@
     {% if captcha %}
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     {% endif %}
-    <script src="{{ url_for('static', filename='func.js') }}"></script>
-    <script src="{{ url_for('static', filename='render.js') }}"></script>
-    <link rel="stylesheet" href="{{ url_for('static', filename='main_required.css') }}">
-    <link rel="stylesheet" href="{{ url_for('skin_config_css', skin=skin_id) }}">
-    <script src="{{ url_for('skin_config_js', skin=skin_id) }}"></script>
-    <!-- 이 위는 지우지 마세요 -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
-    <script src="/skins/{{skin_id}}/js/main.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <style>
     @import "/skins/{{skin_id}}/css/bootstrap.min.css";
     @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css";
@@ -35,6 +26,15 @@
         --brand-bright-color-2: var(--clue-brand-bright-color);
     }
     </style>
+    <script src="{{ url_for('static', filename='func.js') }}"></script>
+    <script src="{{ url_for('static', filename='render.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main_required.css') }}">
+    <link rel="stylesheet" href="{{ url_for('skin_config_css', skin=skin_id) }}">
+    <script src="{{ url_for('skin_config_js', skin=skin_id) }}"></script>
+    <!-- 이 위는 지우지 마세요 -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <script src="/skins/{{skin_id}}/js/main.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     {% block css %}{% endblock %}
     <title>{{ wiki_name }}</title>
 </head>
